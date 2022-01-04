@@ -1,0 +1,5 @@
+import meshio
+
+mesh = meshio.read("Mesh3.inp")
+
+meshio.write("Mesh3.xml", mesh)
